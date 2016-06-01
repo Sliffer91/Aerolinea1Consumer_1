@@ -15,7 +15,8 @@ public class Aerolinea1Consumer {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Aerolinea1WSConsumer.traerBoletosPorPersona("1725347395");
+        System.out.println("");
     }
     
 }

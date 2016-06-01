@@ -31,7 +31,7 @@
     </target>
     <target name="wsimport-client-clean-aerolineaTamews" depends="-init-project">
         <delete dir="${build.generated.dir}/jax-wsCache/aerolineaTamews"/>
-        <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/espe/ecutrave/aerolineal/ws"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/espe/ecutravel/aerolinea/ws"/>
     </target>
     <target name="wsimport-client-generate" depends="wsimport-client-aerolineaTamews"/>
 </project>

@@ -5,7 +5,7 @@
     <client name="aerolineaTamews">
       <wsdl-url>http://localhost:8080/AerolineaTameWS/aerolineaTamews?wsdl</wsdl-url>
       <local-wsdl-file>localhost_8080/AerolineaTameWS/aerolineaTamews.wsdl</local-wsdl-file>
-      <package-name>ec.edu.espe.ecutrave.aerolineal.ws</package-name>
+      <package-name>ec.edu.espe.ecutravel.aerolinea.ws</package-name>
       <catalog-file>catalog.xml</catalog-file>
       <wsimport-options>
         <wsimport-option>
