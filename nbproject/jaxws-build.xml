@@ -18,8 +18,8 @@
     </target>
     <target name="wsimport-client-aerolineaTamews" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/aerolineaTamews"/>
-        <property name="wsdl-aerolineaTamews" location="xml-resources/web-service-references/aerolineaTamews/wsdl/10.49.241.3_8080/AerolineaTameWS/aerolineaTamews.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/aerolineaTamews" destdir="${build.generated.dir}/jax-wsCache/aerolineaTamews" wsdl="${wsdl-aerolineaTamews}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://10.49.241.3:8080/AerolineaTameWS/aerolineaTamews?wsdl" xnocompile="true" xendorsed="true" package="aerolinea1consumer">
+        <property name="wsdl-aerolineaTamews" location="xml-resources/web-service-references/aerolineaTamews/wsdl/localhost_8080/AerolineaTameWS/aerolineaTamews.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/aerolineaTamews" destdir="${build.generated.dir}/jax-wsCache/aerolineaTamews" wsdl="${wsdl-aerolineaTamews}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/AerolineaTameWS/aerolineaTamews?wsdl" xnocompile="true" xendorsed="true">
             <depends file="${wsdl-aerolineaTamews}"/>
             <produces dir="${build.generated.dir}/jax-wsCache/aerolineaTamews"/>
         </wsimport>
@@ -31,7 +31,7 @@
     </target>
     <target name="wsimport-client-clean-aerolineaTamews" depends="-init-project">
         <delete dir="${build.generated.dir}/jax-wsCache/aerolineaTamews"/>
-        <delete dir="${build.generated.sources.dir}/jax-ws/aerolinea1consumer"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ec/edu/espe/ecutrave/aerolineal/ws"/>
     </target>
     <target name="wsimport-client-generate" depends="wsimport-client-aerolineaTamews"/>
 </project>
